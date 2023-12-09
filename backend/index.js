@@ -10,7 +10,7 @@ const app = express();
 
 
 mongoose
-  .connect("mongodb+srv://alphaRinne1:quantumLeap321@cluster0.lw0scxu.mongodb.net/")
+  .connect("URL")
   .then(() => console.log("Connected to Mongodb..."))
   .catch((err) => console.error("Could not connect to MongoDB..."));
 
