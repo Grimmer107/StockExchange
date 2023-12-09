@@ -1,0 +1,12 @@
+.body {
+    position: absolute;
+    top: 30.5vh;
+    right: 10vw;
+    width: 80%;
+    height: 18vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F5F5F5;
+    color: black;
+    box-sizing: border-box;
+}

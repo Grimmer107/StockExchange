@@ -1,0 +1,125 @@
+.loginH1 {
+  color: #0088A9;
+  margin-top:  2em;
+  margin-bottom: 2em;
+}
+
+.loginFormContainer {
+  background-color: rgb(255, 255, 255);
+  width: 30vw;
+  height: 70vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  border-radius: 100px 0;
+}
+
+.loginFormElements {
+  width: 20vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.loginFormInput {
+  padding: 0.5rem 0.7rem;
+  background-color: rgb(222, 229, 235);
+  margin-left: 45px;
+  width: 300px;
+  height: 30px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 50px;
+}
+
+.loginFormInput:focus {
+  margin-left: 45px;
+  width: 300px;
+  height: 30px;
+  border: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 50px;
+  border-color: gray;
+}
+
+.loginCheckbox {
+  margin-right: 10px;
+}
+
+.loginButton {
+  border: 0;
+  width: 5vw;
+  height: 4vh;
+  border-radius: 20px;
+  color: white;
+  background-color: dodgerblue;
+}
+.loginButton:hover {
+  cursor: pointer;
+  border: 0;
+  width: 5vw;
+  height: 4vh;
+  border-radius: 20px;
+  color: white;
+  background-color: blue;
+}
+
+.loginAnker {
+  color: dodgerblue;
+  font-size: small;
+}
+
+.loginButtonAnker {
+  margin-left: 5.5em;
+  padding-left: 1em;
+  min-width: 15em;
+}
+
+.loginError {
+  text-align: center;
+  margin-left: 9em;
+  color: red;
+  font-size: 0.75rem;
+  min-width: 20em;
+  max-width: 20em;
+  min-height: 4em;
+  max-height: 4em;
+}
+
+
+.btn:hover {
+  background: #2980b9;
+  color: #ffffff;
+}
+
+
+.btn {
+  margin: 2em;
+  margin-left: 9em;
+  appearance: none;
+    -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 12px;
+  min-width:15em;
+  max-width: 15em;
+  background: #3498db;
+  color: #ffffff;
+  border-radius: 20px;
+  border: 0px;
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+     transition: background-color 100ms linear;
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+}

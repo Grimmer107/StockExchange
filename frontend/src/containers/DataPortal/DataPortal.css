@@ -1,0 +1,6 @@
+.heading > h4 {
+    width: 80%;
+    position: relative;
+    bottom: 0.75em;
+    margin-left: 1em;
+}

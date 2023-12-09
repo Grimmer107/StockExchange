@@ -1,0 +1,17 @@
+.body {
+    position: static;
+    font-size: 1rem;
+
+}
+
+.tabContent {
+    margin-top: 0.4em;
+}
+
+.datagrid {
+    background-color: #edf3fa;
+    box-sizing: border-box;
+    border: 2px solid #d0e9dd;
+    font-weight: bolder;
+    color: black;
+}

@@ -1,0 +1,21 @@
+.body {
+    position: absolute;
+    top: 175vh;
+    right: 10vw;
+    width: 80%;
+    min-height: 50vh;
+    margin: 0 auto 10vh;
+    text-align: left;
+    background-color: #E8F9FD;
+    color: #333333;
+    box-sizing: border-box;
+    padding: 0 1.5em 1em;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.heading4 {
+    padding-top: 12px;
+    border-top: 4px solid #7FB5FF;
+}

@@ -1,0 +1,49 @@
+.card {
+    min-width: 27em;
+    height: 30em;
+    margin-right: 2.5em;
+    font-size: 1rem;
+    display: inline-block;
+    border: 0.5px solid #C5C6D0;
+    box-sizing: border-box;
+}
+
+.image img {
+    width: 100%;
+    height: 15em;
+}
+
+.image {
+    min-width: 27em;
+    max-width: 27em;
+    height: 15em;
+}
+
+.body {
+    background-color: #f6f6fb;
+    min-width: 27em;
+    max-width: 27em;
+    min-height: 15em;
+    max-height: 15em;
+    padding: 1.5em 1em;
+    box-sizing: border-box;
+}
+
+.heading {
+    min-width: 25em;
+    max-width: 25em;
+    box-sizing: border-box;
+    color: #0090ba;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-bottom: 1em;
+}
+
+.content {
+    min-width: 25em;
+    max-width: 25em;
+    box-sizing: border-box;
+    color: black;
+    font-size: 1rem;
+}
+

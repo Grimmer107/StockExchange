@@ -1,0 +1,40 @@
+.UserInfo {
+    position: absolute;
+    min-width: 80%;
+    max-width: 80%;
+    margin-left: 10em;
+    margin-right: 10em;
+    top: 5em;
+    text-align: left;
+}
+
+.UserData {
+    border: 1px solid grey;
+    padding: 0.5em;
+}
+
+.UserPreference {
+    min-width: 80%;
+    max-width: 80%;
+    margin-left: 10em;
+    margin-right: 10em;
+    position: absolute;
+    top: 15em;
+}
+
+
+.UserPreference h4 {
+    font-family: 'Montserrat', Times, serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.UserInfo h4 {
+    font-family: 'Montserrat', Times, serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 1rem;
+    text-align: left;
+}

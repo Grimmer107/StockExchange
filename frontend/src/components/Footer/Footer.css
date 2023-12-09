@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.container {
+    
+    margin: auto;
+  
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: #24262b !important;
+    padding: 70px 0;
+    /* position: absolute; */
+    width: 100%;
+    padding-left: 40px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.unordered {
+    list-style: none;
+    /* display: none !important; */
+
+}
+
+
+.unordered li a{
+    
+    border: 0 none;
+}
+
+.footer_col {
+    width: 50%;
+}
+
+.footer_col h4 {
+    font-size: 18px;
+    text-align: center;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-left: 30px;
+    font-weight: 800;
+    /* position: relative; */
+    display: inline;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #e91e63;
+}
+
+.footer_col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    /* box-sizing: border-box; */
+    width: 50px;
+}
+
+.footer_col ul li a i {
+
+    font-size: 1.7rem;
+    transition: 300ms;
+
+}
+
+.footer_col ul li a i:hover, .footer_col ul li a:hover {
+
+    
+    color:white;
+
+}
+.footer_col ul li:not(:last-child) {
+    margin-bottom: 10px;
+
+}
+
+.footer_col ul li a {
+    transition: 300ms;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    
+}
+
+ 

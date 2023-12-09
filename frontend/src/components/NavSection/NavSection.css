@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.body {
+    background-color: #24252a;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 8.5vh;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 999;
+    margin: 0;
+    padding: 0 3rem;
+    opacity: 0.95;
+}
+
+li, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+}
+
+header {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+}
+.nav__links{
+    list-style: none;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.nav__links li {
+    transition: 0.2s;
+    display: inline-block;
+    border-bottom: 4px solid transparent;
+}
+a {
+    padding: 2.7vh 20px;
+    margin-right: 0.5rem;
+    border-bottom: 4px solid transparent;
+}
+
+.nav__links a:hover {
+    background-color: #0088a9;
+    border-bottom: 4px solid white !important;
+    cursor: pointer;
+    
+}
+
+.active {
+    border-bottom: 4px solid #0088a9;
+    cursor: pointer;
+    font-weight: 700 !important;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+}
+
+/* 
+.btn {
+    padding: 9px 25px;
+    color: #edf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    left: 42rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: var(--background-color);
+    --accent-color: #0af;
+    --background-color: #0088a9;
+    
+     // z-index: 1; 
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--accent-color);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transfrom 300ms ease-in-out;
+
+}
+
+.btn:hover::before, .btn:focus::before {
+
+    transform: scaleX(1);
+} */
+
+.btn {
+    background-color: var(--background-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #edf0f1;
+    padding: 0.5em 1em;
+    border: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    margin-left: 18rem;
+    /* left: 40rem; */
+    z-index: 1;
+    border-radius: 5px;
+    --background-color: #0088a9;
+    --accent-color: white;
+    transition: 200ms;
+}
+
+.signup {
+    margin-left: 1rem;
+}
+
+.btn:hover {
+    color: #24252a;
+    background-color: #edf0f1;
+}
+
+
+.logo_name {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    /* padding-bottom: 4px;
+    padding-top: 4px; */
+    border-bottom: 4px solid transparent;
+    transition: 200ms;
+}
+
+.logo_name:hover {
+    border-bottom: 4px solid white;
+}

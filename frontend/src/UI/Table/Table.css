@@ -1,0 +1,40 @@
+.body {
+    font-size: 1rem;
+    padding: 0.5em;
+    margin-right: 1em;
+    width: 40em;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.caption {
+    font-size: 0.9rem;
+    text-align: left;
+    margin-bottom: 0.3em;
+}
+
+.heading {
+    font-size: 0.8rem;
+    background-color: #edf3fa;
+    margin-top: 0.3em;
+    box-sizing: border-box;
+}
+
+.rows {
+    font-size: 0.8rem;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.headingCell {
+    padding: 1em;
+    box-sizing: border-box;
+    border-bottom: 2px solid #d0e9dd;
+    border-top: 2px solid #d0e9dd;
+}
+
+.rowCell {
+    padding: 1em;
+    border-bottom: 2px solid #e6e6e6;
+    box-sizing: border-box;
+}

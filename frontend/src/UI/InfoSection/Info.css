@@ -1,0 +1,55 @@
+.table {
+    color: rgb(54, 54, 54);
+    width: 37.5em;
+    height: 20em;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.25rem;
+    height: 2em;
+}
+
+.section1 h6 {
+    color: green;
+    font-weight: bolder;
+    margin-left: 1em;
+    font-size: 0.75rem;
+    text-align: end;
+}
+
+.section2 {
+    font-size: 1rem;
+    padding-left: 0.5em;
+}
+
+.headSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.section3, .section4 {
+    border-top: 1px solid grey;
+    font-size: 0.75rem;
+    margin-right: 0.8rem;
+    font-weight: bolder;
+    padding-right: 5em;
+    padding-left: 0.25em;
+}
+
+.section4 {
+    padding-right: 4.25em;
+}
+
+.table  h4,h5 {
+    font-size: 0.80rem;
+    color: green;
+    font-weight: bolder;
+}

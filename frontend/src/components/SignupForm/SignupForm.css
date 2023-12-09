@@ -1,0 +1,114 @@
+.signupH1 {
+  color: #0088A9;
+  margin-top:  1em;
+  margin-bottom: 1em;
+}
+
+.signupFormContainer {
+  background-color: rgb(255, 255, 255);
+  width: 33vw;
+  height: 77vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 100px 0;
+}
+
+.signupFormElements {
+  width: 20vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.signupFormInput {
+  padding: 0.5rem 0.7rem;
+  background-color: rgb(222, 229, 235);
+  margin-left: 45px;
+  width: 300px;
+  height: 30px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 50px;
+}
+
+.signupFormInput:hover {
+  padding: 0.5rem 0.7rem;
+  background-color: rgb(222, 229, 235);
+  margin-left: 45px;
+  width: 300px;
+  height: 30px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 50px;
+}
+
+.checkbox {
+  margin-right: 10px ;
+}
+
+.btn:hover {
+  background: #2980b9;
+  color: #ffffff;
+}
+
+.checkboxDiv {
+  padding-top: 0.5em;
+  padding-left: 0.3em;
+  text-align: left;
+  min-width: 25em;
+  max-width: 25em;
+  max-height: 8em;
+  font-size: 0.8rem;
+}
+
+.haveAccount {
+  margin-top: 2em;
+  font-size: 0.7rem;
+  margin-left: 1em;
+}
+
+
+.btn {
+  margin-left: 1em;
+  appearance: none;
+    -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 12px;
+  min-width:22em;
+  max-width: 22em;
+  background: #3498db;
+  color: #ffffff;
+  border-radius: 20px;
+  border: 0px;
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+     transition: background-color 100ms linear;
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+}
+
+.signupAnker {
+  color: dodgerblue;
+  font-size: 0.8rem;
+}
+
+.signupError {
+  text-align: center;
+  margin-left: 9em;
+  color: red;
+  font-size: 0.75rem;
+  min-width: 20em;
+  max-width: 20em;
+  min-height: 4em;
+  max-height: 4em;
+}

@@ -1,0 +1,81 @@
+.body {
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 3em 3em 2em;
+    width: 93%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+}
+
+table {
+    border: 2px solid grey;
+}
+
+.caption {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 0.25em;
+    background-color: white;
+    border-top: 3px solid #d0e9dd;
+    border-right: 3px solid #d0e9dd;
+    border-left: 3px solid #d0e9dd;
+    padding: 0.5em;
+}
+
+.heading {
+    font-size: 0.8rem;
+    background-color: #edf3fa;
+    margin-top: 0.3em;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.rows {
+    font-size: 0.8rem;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.headingCell {
+    padding: 1em 1.5em;
+    min-width: 8.75em;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 2px solid #d0e9dd;
+    border-top: 2px solid #d0e9dd;
+    border-left: 0.5px solid grey;
+}
+
+.heading th:nth-of-type(1) {  
+    min-width: 20em;
+    border: none;
+    text-align: left;
+}
+
+.rows td:nth-of-type(1) {  
+    min-width: 20em;
+    border: none;
+    text-align: left;
+}
+
+.rows td:nth-of-type(5) {  
+    color: red;
+}
+
+.rows td:nth-of-type(4) {  
+    color: green;
+}
+
+.rows td:nth-of-type(8) {  
+    color: blue;
+}
+
+.rowCell {
+    padding: 1em 1.5em;
+    min-width: 8.75em;
+    border-bottom: 2px solid #e6e6e6;
+    text-align: center;
+    box-sizing: border-box;
+    border-left: 0.5px solid grey;
+}

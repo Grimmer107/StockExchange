@@ -1,0 +1,11 @@
+.my-carousel {
+    width: 80%;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 200px;
+    display: inline-block;
+  }
+  .example {
+    font-family: sans-serif;
+    padding: 20px;
+  }  
